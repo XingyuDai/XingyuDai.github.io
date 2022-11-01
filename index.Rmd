@@ -1,0 +1,33 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+Here's some text. I like the Internet. I use [google](https://www.google.com/) all the time to so data science. 
+
+
+ This is me. 
+ ![](images/IMG_1660.JPG)
+ 
+ 
+ <img src="images/IMG_1660.JPG" style="width:25%">
+
+
+```{r}
+library(tidyverse)
+
+sample = rnorm(1000)
+mean(sample)
+```
+
+Here's a direct link to the about page: [about](about.html).
+
+
