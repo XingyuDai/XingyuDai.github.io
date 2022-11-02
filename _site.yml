@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/xingyu-dai-8333031b8/
     - icon: fa-envelope fa-lg
