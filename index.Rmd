@@ -13,4 +13,5 @@ I am Daisy, a second year MPH student from Department of Biostatistics.
 This is our campus.
 ![](images/cuimc.JPG)
 
-If you are interested in my academic and professional experience please click [here](resume.html) or the 'Resume' tab from the top right corner.
+
+***If you are interested in my academic and professional experience, please click [here](resume.html) or the 'Resume' tab from the top right corner.***

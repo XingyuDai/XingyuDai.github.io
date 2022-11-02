@@ -1,9 +1,81 @@
 ---
-title: "My Resume"
+title: "Resume"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
+## **SUMMARY**
+
+Master student who aims at finding data analyst opportunities, with sufficient project experience in **data/information collection & processing, data visualization and machine learning**. Strong knowledge of statistics, data analytics, pharmacy, and public health. Solid programming skills in **SAS, R and Python**.
+
+## **EDUCATION**
+
+**Columbia University**	   Expected May 2023
+
+Master of Public Health in Biostatistics | Advanced Epidemiology Certificate
+
+Coursework: *Statistical Computing with SAS; Categorical Data Analysis; Applied Regression I&II; Applied Epidemiologic Analysis; Health System; Data Science; Mathematical Statistics; Relational Databases and SQL Programming*
+
+**Ocean University of China**
+
+Bachelor of Science in Pharmacy
+
+Coursework: *Advanced Mathematics II 1 &2; Programming with C Language; Analytical Chemistry; Microbiology and Immunology; Pharmaceutical Analysis*
+
+## **SKILLS**
+
+**Programming**: SAS, R, Python, SQL, C Language, Microsoft Office
+
+**Machine Learning Techniques**: Linear Regression, Logistic Regression Analysis, Survival Analysis (Kaplan-Meier Estimator, Cox Model, Log-Rank Test, Wilcoxon Test), Exploratory Data Analysis, Experimental Design, Hypothesis Testing
+
+## **WORK EXPERIENCE**
+
+**CMMB **
+
+***Medical Donations Program Intern***
+
+* Formatted raw dataset by data cleaning, feature transformation, integreation, and standardization via R and Excel
+
+* Conducted research on the medicine availability of consignee countries, collected information on essential medicines list, and gathered country-specific information regarding the prevalence of diseases
+
+**Ocean University of China**                                                               
+***Undergraduate Student Research***
+
+* Produced various culture media (rose bengal, SDA, PDA, etc.), and managed over 100 Petri dishes of fungi for the study
+
+* Diluted and incubated sediment specimens sourced from Western Pacific deep-sea under an aseptic condition with a constant temperature, and cultivated 37 different strains
+
+* Performed TLC and HPLC weighing, isolated and reported the bioactive compounds metabolized by microorganisms
+
+## **PROJECTS**
+
+**Meta-Analysis on the Safety of Carbapenems in Infants and Young Children—Undergraduate Thesis**
+
+* Collected 1043 articles and research papers, gathered them in EndNote, and performed screening based on designated inclusion and exclusion criteria
+
+*	Evaluated the quality and biases of the final selected articles by drawing risk of bias graphs and charts according to Cochrane Risk Bias Assessment Manuals
+
+* Extracted main information and made exploratory data analysis to consolidate the data from collected research papers
+
+* Conducted meta-analysis with RevMan 5.3, computed Risk Ratios and 95% Confidence Intervals, performed hypothesis tests regarding the side effects of Carbapenems, and performed data visualization to conduct a systematic review
+
+* Categorized adverse effects of Carbapenems in infants and young children, and conducted subgroup analysis regarding dose administrated, subject’s age, duration of intervention, drug usage, and types of medicines 
+
+* Generated a thesis on the clinical manifestations and influence factors of adverse effects, evaluated the safety of Carbapenems in young children, and provided evidence-based references for clinical practice
+
+**Bariatric Surgery Exploration and Evaluation**
+
+* Worked on Bariatric Surgery dataset and analyzed the effect of treatments for obesity regarding non-surgical therapy, laparoscopic adjustable gastric banding, and Roux-en-Y gastric bypass (RYGB) using SAS
+
+* Preprocessed raw dataset by data cleaning, encoding, categorical feature transformation and standardization, etc
+
+* Performed exploratory data analysis by dealing with the pattern of missing data and categorical features
+
+* Conducted hypothesis tests to investigate the independence between variables
+
+* Build linear regression, mixed effects, and generalized estimating equation models and evaluate the models through multiple metrics
+
+* Made model selection, visualized the results and evaluate the effects of 3 different treatments for obesity
 
