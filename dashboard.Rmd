@@ -30,10 +30,10 @@ rest_inspec = rest_inspec %>%
   drop_na(grade_date)
 ```
 
-Column {data-width=650}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
-### Line Plot
+### Line Plot for Number of Restaurants Graded in Each Month
 
 ```{r}
 rest_inspec %>% 
@@ -46,15 +46,16 @@ rest_inspec %>%
     type = "scatter", mode = "lines+markers",
     alpha = .6, text = ~text_label
   ) %>% 
-  layout(title = 'Number of Restaurants Graded in Each Month',
+  layout(
          xaxis = list(title = 'Month'), 
-         yaxis = list(title = 'Number of Restaurants Graded'))
+         yaxis = list(title = 'Number of Restaurants Graded')
+         )
 ```
 
-Column {data-width=350}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
-### Box Plot
+### Box Plot of Scores for Each Cuisine Category
 
 ```{r}
 rest_inspec %>% 
@@ -62,11 +63,10 @@ rest_inspec %>%
   plot_ly(
     y = ~score, color = ~cuisine,
     type = "box", colors = "viridis"
-  ) %>% 
-  layout(title = 'Box Plot of Scores for Each Cuisine Category')
+  )
 ```
 
-### Bar Plot
+### Bar Plot of Number of Restaurants for Each Cuisine Category
 
 ```{r}
 rest_inspec %>% 
@@ -76,7 +76,6 @@ rest_inspec %>%
     x = ~cuisine, y = ~n, color = ~cuisine, 
     type = "bar", colors = "viridis"
   ) %>% 
-  layout(title = 'Number of Restaurants for Each Cuisine Category',
-         yaxis = list(title = 'Number of Restaurants'))
+  layout(yaxis = list(title = 'Number of Restaurants'))
 ```
 
