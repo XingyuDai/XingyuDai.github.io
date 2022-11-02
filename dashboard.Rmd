@@ -17,38 +17,66 @@ library(flexdashboard)
 data(rest_inspec)
 
 rest_inspec = rest_inspec %>% 
+  mutate(month = lubridate::floor_date(grade_date, unit = "month")) %>% 
   select(
-    borough = boro, cuisine = cuisine_description, score, critical_flag, grade, street, zipcode, inspection_type) %>% 
+    borough = boro, cuisine = cuisine_description, score, critical_flag, street, month, grade_date, inspection_type) %>% 
   filter(
     borough == "MANHATTAN",
     inspection_type == "Cycle Inspection / Initial Inspection",
     critical_flag == "Not Critical",
-    cuisine != "American"
+    score %in% 0:30,
+    cuisine %in% c("Bakery", "Asian", "French", "Italian", "Chinese", "Japanese", "Korean", "Thai", "English", "Turkish", "Russian")
   ) %>% 
-  drop_na(grade)
+  drop_na(grade_date)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Line Plot
 
 ```{r}
-
+rest_inspec %>% 
+  count(month) %>% 
+  mutate(
+  text_label = str_c("Graded Restaurant Number: ", n)
+  ) %>% 
+  plot_ly(
+    x = ~month, y = ~n,
+    type = "scatter", mode = "lines+markers",
+    alpha = .6, text = ~text_label
+  ) %>% 
+  layout(title = 'Number of Restaurants Graded in Each Month',
+         xaxis = list(title = 'Month'), 
+         yaxis = list(title = 'Number of Restaurants Graded'))
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Box Plot
 
 ```{r}
-
+rest_inspec %>% 
+  mutate(cuisine = fct_reorder(cuisine, score)) %>% 
+  plot_ly(
+    y = ~score, color = ~cuisine,
+    type = "box", colors = "viridis"
+  ) %>% 
+  layout(title = 'Box Plot of Scores for Each Cuisine Category')
 ```
 
-### Chart C
+### Bar Plot
 
 ```{r}
-
+rest_inspec %>% 
+  count(cuisine) %>% 
+  mutate(cuisine = fct_reorder(cuisine, n)) %>% 
+  plot_ly(
+    x = ~cuisine, y = ~n, color = ~cuisine, 
+    type = "bar", colors = "viridis"
+  ) %>% 
+  layout(title = 'Number of Restaurants for Each Cuisine Category',
+         yaxis = list(title = 'Number of Restaurants'))
 ```
 
