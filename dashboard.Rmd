@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "NYC Restaurant Inspection Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -7,7 +7,25 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
 library(flexdashboard)
+```
+
+```{r}
+data(rest_inspec)
+
+rest_inspec = rest_inspec %>% 
+  select(
+    borough = boro, cuisine = cuisine_description, score, critical_flag, grade, street, zipcode, inspection_type) %>% 
+  filter(
+    borough == "MANHATTAN",
+    inspection_type == "Cycle Inspection / Initial Inspection",
+    critical_flag == "Not Critical",
+    cuisine != "American"
+  ) %>% 
+  drop_na(grade)
 ```
 
 Column {data-width=650}
