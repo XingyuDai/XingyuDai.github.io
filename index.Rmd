@@ -11,7 +11,9 @@ output:
 I am Daisy, a second year MPH student from the Department of Biostatistics.
 
 This is our campus.
+
 ![](images/cuimc.JPG)
 
+<br>
 
 ***If you are interested in my academic and professional experience, please click [here](resume.html) or the 'Resume' tab from the top right corner.***
