@@ -6,23 +6,29 @@ output:
     toc_float: true
 ---
 
+<br>
+
 ## **SUMMARY**
 
 Master student who aims at finding data analyst opportunities, with sufficient project experience in **data/information collection & processing, data visualization and machine learning**. Strong knowledge of statistics, data analytics, pharmacy, and public health. Solid programming skills in **SAS, R and Python**.
 
+<br>
+
 ## **EDUCATION**
 
-**Columbia University**	   Expected May 2023
+**Columbia University** [Expected May 2023]{style="float:right"}
 
 Master of Public Health in Biostatistics | Advanced Epidemiology Certificate
 
 Coursework: *Statistical Computing with SAS; Categorical Data Analysis; Applied Regression I&II; Applied Epidemiologic Analysis; Health System; Data Science; Mathematical Statistics; Relational Databases and SQL Programming*
 
-**Ocean University of China**
+**Ocean University of China** [July 2020]{style="float:right"}
 
 Bachelor of Science in Pharmacy
 
 Coursework: *Advanced Mathematics II 1 &2; Programming with C Language; Analytical Chemistry; Microbiology and Immunology; Pharmaceutical Analysis*
+
+<br>
 
 ## **SKILLS**
 
@@ -30,24 +36,29 @@ Coursework: *Advanced Mathematics II 1 &2; Programming with C Language; Analytic
 
 **Machine Learning Techniques**: Linear Regression, Logistic Regression Analysis, Survival Analysis (Kaplan-Meier Estimator, Cox Model, Log-Rank Test, Wilcoxon Test), Exploratory Data Analysis, Experimental Design, Hypothesis Testing
 
+<br>
+
 ## **WORK EXPERIENCE**
 
-**CMMB **
+**CMMB** [**New York, NY**]{style="float:right"}
 
-***Medical Donations Program Intern***
+***Medical Donations Program Intern*** [September 2022 - Current]{style="float:right"}
 
 * Formatted raw dataset by data cleaning, feature transformation, integreation, and standardization via R and Excel
 
 * Conducted research on the medicine availability of consignee countries, collected information on essential medicines list, and gathered country-specific information regarding the prevalence of diseases
 
-**Ocean University of China**                                                               
-***Undergraduate Student Research***
+**Ocean University of China** [**Qingdao, China**]{style="float:right"}
+
+***Undergraduate Student Research*** [September 2018 – June 2019]{style="float:right"}
 
 * Produced various culture media (rose bengal, SDA, PDA, etc.), and managed over 100 Petri dishes of fungi for the study
 
 * Diluted and incubated sediment specimens sourced from Western Pacific deep-sea under an aseptic condition with a constant temperature, and cultivated 37 different strains
 
 * Performed TLC and HPLC weighing, isolated and reported the bioactive compounds metabolized by microorganisms
+
+<br>
 
 ## **PROJECTS**
 

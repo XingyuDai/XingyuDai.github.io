@@ -8,7 +8,7 @@ output:
 
 # This is Daisy's awesome website
 
-I am Daisy, a second year MPH student from Department of Biostatistics.
+I am Daisy, a second year MPH student from the Department of Biostatistics.
 
 This is our campus.
 ![](images/cuimc.JPG)
